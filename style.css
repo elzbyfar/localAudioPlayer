@@ -1,0 +1,232 @@
+body, html{
+    /* background: #ffffff; */
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    background-image: url("images/bgTexture.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    width: 500px;
+    height:160px;
+    /* background:#ffffff; */
+    opacity: 0.9;
+}
+
+.heading{
+    /* width: infinite; */
+    height: 90px; 
+    margin-top: 40px;
+    background-color: white;
+}
+
+.header{
+    margin: auto;
+    height:100%;
+    opacity: 0.9;
+    /* box-shadow:0 0 6px 2px #fc9dff; */
+    /* color: #003ba9; */
+    /* font-family: verdana; */
+    /* font-size: 12px; */
+}
+
+.headerPhoto{
+    margin:auto;
+}
+
+h1{
+    white-space: pre;
+    text-align: center;
+    font-family: 'dk cut along';
+    font-size: 90px;
+    color: #860a63;
+    text-align: bottom;
+    /* margin-left: 50px; */
+}
+h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+.picOne{
+    padding-top: 50px;
+    float: left; 
+    margin-left: 15px;
+    width: 125px;
+    transform: rotate(90deg);
+}
+
+.picTwo{
+    padding-top: 50px;
+    float: left; 
+    /* margin-left: 15px; */
+    width: 125px;
+    transform: rotate(90deg);
+}
+
+.middle{
+    margin: auto;
+    width:450px;
+    height:180px;
+    background:#ffffff;
+    padding-bottom: 10px;
+    /* box-shadow:0 0 6px 2px #fc9dff; */
+    opacity: 0.9;
+    /* color: #003ba9; */
+    /* font-family: verdana; */
+    /* font-size: 12px; */
+}
+
+.description{
+    padding-top: 20px;
+    margin-left: 175px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 13px;
+
+
+}
+
+.title{
+    text-align: center;
+    font-family: 'dream beach';
+    color: black;
+    font-size: 120px;
+}
+
+.nine{
+    text-align: center;
+    font-family: 'dk cut along';
+    color: black;
+    font-size: 128px;
+}
+
+.audio-player-cont{
+    margin: auto;
+    width:470px;
+    height:140px;
+    background:#ffffff;
+    opacity: 0.9;
+    box-shadow:0 0 6px 2px #8b8b8b;
+    /* color: #003ba9; */
+    font-family: verdana;
+    font-size: 12px;
+}
+.logo{
+    float: left;
+    margin-left: 15px;
+}
+.player{
+    float:right;
+    margin:7px;
+}
+.song-title{
+    width: 300px;
+    padding: 5px 0px 5px 0px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 13px;
+}
+.mainPic{
+    padding-top: 18px;
+    padding-left: 15px;
+    width:100px;
+}
+.song-slider{
+    width:300px;
+}
+.current-time{
+    float:left;
+    font-size: 10px;
+}
+.duration{
+    float:right;
+    font-size: 10px;
+}
+
+.controllers{
+    clear: both;
+    display: table;
+}
+
+.controllers *{
+    vertical-align: middle;
+    margin-right:2px;
+}
+
+.volume-slider{
+    width: 90px;
+    margin-left: 5px;
+}
+
+#nextSongTitle{
+    font-size: 12px;
+}
+
+.lyricBox{
+    margin: auto;
+    text-align: center;
+    width:500px;
+    height:255px;
+    background:#ffffff;
+    opacity: 0.9;
+    /* box-shadow:0 0 6px 2px #8b8b8b; */
+    /* color: #003ba9; */
+    font-family: verdana;
+    font-size: 12px;
+    
+}
+
+.songName{
+    font-size: 15px;
+}
+
+
+.artist-description {
+    margin: auto;
+    vertical-align: top;
+    text-align: top;
+    width: 450px;
+    height: 140px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.artistPhoto {
+    float: left;
+    margin-left: 5px;
+    margin-top: 55px;
+}
+
+.bio {
+    float: right;
+    width: 230px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.bigLetter {
+    font-size: 35px;
+}
+
+.boldArtistName {
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-size: 14px;
+    text-align: center;
+    margin-top: 45px;
+    margin-left: 5px;
+    width: 230px;
+
+}
+
+.dividerLine {
+    border-top: 8px solid black;
+    width: 450px;
+}
