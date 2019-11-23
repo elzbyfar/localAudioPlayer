@@ -1,11 +1,11 @@
-let songs = ["Sade - Jezebel.mp3", 
-"Frank Ocean - Novacane.mp3", 
-"Ora6eis - Oro.mp3", 
-"Elz ByFar - Legal Tree.mp3", 
+let songs = ["Ora6eis - Oro.mp3", 
+"Elz ByFar - Legal Tree.mp3",
+"Ora6eis - Calendario.mp3",
+"Sade - Jezebel.mp3", 
+"Frank Ocean - Novacane.mp3",  
 "Mark Ronson - Valerie (feat. Amy Winehouse).mp3",
 "Regina Spektor - Love Affair.m4a", 
-"Nina Simone - Feeling Good.mp3", 
-"Ora6eis - Calendario.mp3"];
+"Nina Simone - Feeling Good.mp3",];
 
 let songTitle = document.getElementById('songTitle');
 let songSlider = document.getElementById('songSlider');
