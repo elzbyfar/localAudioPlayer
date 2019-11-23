@@ -2,7 +2,6 @@ let songs = ["Sade - Jezebel.mp3",
 "Frank Ocean - Novacane.mp3", 
 "Ora6eis - Oro.mp3", 
 "Elz ByFar - Legal Tree.mp3", 
-"Sade - The Sweetest Taboo.mp3", 
 "Mark Ronson - Valerie (feat. Amy Winehouse).mp3",
 "Regina Spektor - Love Affair.m4a", 
 "Nina Simone - Feeling Good.mp3", 
@@ -18,17 +17,15 @@ let nextSongTitle = document.getElementById('nextSongTitle');
 let song = new Audio();
 let currentSong = 0;
 
-window.onload = loadSong;
+window.onload = loadSong(); 
 
 function loadSong() {
     song.src = "playerSongs/" + songs[currentSong];
-    song.play;
+    song.play();
     songTitle.textContent = (currentSong + 1) + ". " + songs[currentSong];
     nextSongTitle.innerHTML = "<b>Next Song: </b>" + songs[(currentSong + 1) % songs.length];
-    // nextSongTitle.innerHTML = "<b>Next Song: </b>" + songs[(currentSong > songs.length) ? currentSong : currentSong + 1]
     song.playbackRate = 1;
     song.volume = volumeSlider.value;
-    song.play();
     setTimeout(showDuration, 1000);
 }
 
