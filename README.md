@@ -1,6 +1,7 @@
 # Local Audio Player
 
-Basic audio player with small selection of songs. [PS- first 3 songs are original, written, recorded and produced by me :D ]
+Basic audio player with small selection of songs. 
+[PS- first 3 songs are original, written, recorded and produced by me :D ]
 
 ## Getting Started
 
